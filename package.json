@@ -1,0 +1,11 @@
+{
+  "name": "awesome_grpc_application",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:lamecksilva/awesome_grpc_application.git",
+  "author": "Lameck Sandro <lameck2@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "grpc": "^1.24.11"
+  }
+}
