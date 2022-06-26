@@ -23,3 +23,15 @@ server.addService(notesProto.NoteService.service, {
 server.bind('127.0.0.1:50051', grpc.ServerCredentials.createInsecure());
 console.log('Server running at http://127.0.0.1:50051');
 server.start();
+
+// To use gRPC in the same binary of Express HTTP server
+
+// import express from "express";
+// const router = express.Router();
+
+// express()
+//   .use("/", router)
+//   .listen(3000, () => {
+//     server.start();
+//     console.log("listening");
+//   });
